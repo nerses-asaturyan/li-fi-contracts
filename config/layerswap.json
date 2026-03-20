@@ -1,0 +1,23 @@
+{
+  "mainnet": {
+    "layerswapDepository": "0x0000000000000000000000000000000000000000"
+  },
+  "arbitrum": {
+    "layerswapDepository": "0x0000000000000000000000000000000000000000"
+  },
+  "optimism": {
+    "layerswapDepository": "0x0000000000000000000000000000000000000000"
+  },
+  "polygon": {
+    "layerswapDepository": "0x0000000000000000000000000000000000000000"
+  },
+  "base": {
+    "layerswapDepository": "0x0000000000000000000000000000000000000000"
+  },
+  "avalanche": {
+    "layerswapDepository": "0x0000000000000000000000000000000000000000"
+  },
+  "sepolia": {
+    "layerswapDepository": "0x5b303123f1CaD959833A80e6D38D5F92000Bb164"
+  }
+}

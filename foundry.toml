@@ -111,8 +111,10 @@ scroll = "${ETH_NODE_URI_SCROLL}"
 
 # testnets
 localanvil = "${ETH_NODE_URI_LOCALANVIL}"
+sepolia = "${ETH_NODE_URI_SEPOLIA}"
 
 [etherscan]
+sepolia = { key = "${MAINNET_ETHERSCAN_API_KEY}", url = "https://api.etherscan.io/v2/api?chainid=11155111", chain = "11155111" }
 mainnet = { key = "${MAINNET_ETHERSCAN_API_KEY}", url = "https://api.etherscan.io/v2/api?chainid=1", chain = "1" }
 0g = { key = "${NO_ETHERSCAN_API_KEY_REQUIRED}", url = "https://chainscan.0g.ai/api/", chain = "16661", verifier = "blockscout" }
 abstract = { key = "${NO_ETHERSCAN_API_KEY_REQUIRED}", url = "https://abscan.org/contract_verification", chain = "2741", verifier = "zksync" }
